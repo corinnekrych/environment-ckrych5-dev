@@ -1,39 +1,76 @@
 autoUpdate:
   enabled: false
   schedule: ""
+bootConfigURL: https://github.com/cloudbees/cloudbees-jenkins-x-boot-config.git
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  environmentGitPublic: true
-  project: ""
   azure: {}
+  clusterName: ckrych5
+  environmentGitOwner: corinnekrych
+  environmentGitPublic: true
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
+  project: apps-dev-229310
   provider: gke
-  zone: ""
-gitops: true
+  registry: gcr.io
+  zone: europe-north1-a
 environments:
-  - key: dev
-  - key: staging
-  - key: production
+- ingress:
+    domain: 35.228.34.183.nip.io
+    externalDNS: false
+    namespaceSubDomain: -jx.
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: dev
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: staging
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: production
+gitops: true
 ingress:
-  domain: ""
+  domain: 35.228.34.183.nip.io
   externalDNS: false
+  namespaceSubDomain: -jx.
   tls:
     email: ""
     enabled: false
     production: false
 kaniko: true
+repository: nexus
 secretStorage: vault
 storage:
+  backup:
+    enabled: false
+    url: ""
   logs:
     enabled: true
-    url: ""
+    url: gs://ckrych5-logs-dd1cb469-e905-4d53-ad69-c91fdbf866f8
   reports:
     enabled: true
-    url: ""
+    url: gs://ckrych5-reports-121b2e7f-0fac-416c-ad8b-86bff81a33b4
   repository:
     enabled: true
-    url: ""
+    url: gs://ckrych5-repository-e8f22c89-09e5-4e79-b3c8-b8f9f8c23c49
+vault: {}
+velero: {}
 versionStream:
-  ref: 2.0.1005+cjxd.5
+  ref: v0.0.16
   url: https://github.com/cloudbees/cloudbees-jenkins-x-versions.git
 webhook: prow

@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:ckrych5/adminUser:password
+  username: corinnekrych
+enableDocker: false
+pipelineUser:
+  email: corinnekrych@gmail.com
+  token: vault:ckrych5/pipelineUser:token
+  username: corinnekrych
+prow:
+  hmacToken: vault:ckrych5/prow:hmacToken
