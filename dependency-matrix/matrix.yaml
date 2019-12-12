@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: corinnekrych
+  repo: choice-doe
+  url: https://github.com/corinnekrych/choice-doe.git
+  version: ""
+  versionURL: ""
