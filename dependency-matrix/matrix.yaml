@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/corinnekrych/choice-doe.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: corinnekrych
+  repo: engaging-bobcat
+  url: https://github.com/corinnekrych/engaging-bobcat.git
+  version: ""
+  versionURL: ""

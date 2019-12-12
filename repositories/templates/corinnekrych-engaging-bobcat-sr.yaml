@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: corinnekrych
+    provider: github
+    repository: engaging-bobcat
+  name: corinnekrych-engaging-bobcat
+spec:
+  description: Imported application for corinnekrych/engaging-bobcat
+  httpCloneURL: https://github.com/corinnekrych/engaging-bobcat.git
+  org: corinnekrych
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: engaging-bobcat
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/corinnekrych/engaging-bobcat.git
