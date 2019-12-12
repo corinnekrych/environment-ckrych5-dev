@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/corinnekrych/choice-doe.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: corinnekrych
+  repo: current-pegasus
+  url: https://github.com/corinnekrych/current-pegasus.git
+  version: ""
+  versionURL: ""
