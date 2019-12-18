@@ -11,3 +11,9 @@ dependencies:
   url: https://github.com/corinnekrych/engaging-bobcat.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: corinnekrych
+  repo: bdd-nh-1576674109
+  url: https://github.com/corinnekrych/bdd-nh-1576674109.git
+  version: ""
+  versionURL: ""
