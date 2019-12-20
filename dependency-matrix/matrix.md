@@ -11,3 +11,4 @@ Dependency | Sources | Version | Mismatched versions
 [corinnekrych/bdd-nh-1576749773](https://github.com/corinnekrych/bdd-nh-1576749773.git) |  | []() | 
 [corinnekrych/bdd-nh-1576750925](https://github.com/corinnekrych/bdd-nh-1576750925.git) |  | []() | 
 [corinnekrych/bdd-nh-1576753882](https://github.com/corinnekrych/bdd-nh-1576753882.git) |  | []() | 
+[corinnekrych/corinnejs3](https://github.com/corinnekrych/corinnejs3.git) |  | []() | 
