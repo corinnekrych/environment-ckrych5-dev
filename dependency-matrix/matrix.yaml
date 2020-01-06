@@ -59,3 +59,9 @@ dependencies:
   url: https://github.com/corinnekrych/corinnejs3.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: corinnekrych
+  repo: corinnejs4
+  url: https://github.com/corinnekrych/corinnejs4.git
+  version: ""
+  versionURL: ""
