@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: corinnekrych
+    provider: github
+    repository: corinnejs4
+  name: corinnekrych-corinnejs4
+spec:
+  description: Imported application for corinnekrych/corinnejs4
+  httpCloneURL: https://github.com/corinnekrych/corinnejs4.git
+  org: corinnekrych
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: corinnejs4
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/corinnekrych/corinnejs4.git
