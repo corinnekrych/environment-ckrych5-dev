@@ -14,3 +14,4 @@ Dependency | Sources | Version | Mismatched versions
 [corinnekrych/corinnejs3](https://github.com/corinnekrych/corinnejs3.git) |  | []() | 
 [corinnekrych/corinnejs4](https://github.com/corinnekrych/corinnejs4.git) |  | []() | 
 [corinnekrych/healthy-katydid](https://github.com/corinnekrych/healthy-katydid.git) |  | []() | 
+[corinnekrych/rare-peacock](https://github.com/corinnekrych/rare-peacock.git) |  | []() | 

@@ -71,3 +71,9 @@ dependencies:
   url: https://github.com/corinnekrych/healthy-katydid.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: corinnekrych
+  repo: rare-peacock
+  url: https://github.com/corinnekrych/rare-peacock.git
+  version: ""
+  versionURL: ""
