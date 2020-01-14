@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: corinnekrych
+    provider: github
+    repository: healthy-katydid
+  name: corinnekrych-healthy-katydid
+spec:
+  description: Imported application for corinnekrych/healthy-katydid
+  httpCloneURL: https://github.com/corinnekrych/healthy-katydid.git
+  org: corinnekrych
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: healthy-katydid
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/corinnekrych/healthy-katydid.git

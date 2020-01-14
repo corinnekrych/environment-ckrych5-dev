@@ -13,3 +13,4 @@ Dependency | Sources | Version | Mismatched versions
 [corinnekrych/bdd-nh-1576753882](https://github.com/corinnekrych/bdd-nh-1576753882.git) |  | []() | 
 [corinnekrych/corinnejs3](https://github.com/corinnekrych/corinnejs3.git) |  | []() | 
 [corinnekrych/corinnejs4](https://github.com/corinnekrych/corinnejs4.git) |  | []() | 
+[corinnekrych/healthy-katydid](https://github.com/corinnekrych/healthy-katydid.git) |  | []() | 
