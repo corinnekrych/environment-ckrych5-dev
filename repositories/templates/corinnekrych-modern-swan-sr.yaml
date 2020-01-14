@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: corinnekrych
+    provider: github
+    repository: modern-swan
+  name: corinnekrych-modern-swan
+spec:
+  description: Imported application for corinnekrych/modern-swan
+  httpCloneURL: https://github.com/corinnekrych/modern-swan.git
+  org: corinnekrych
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: modern-swan
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/corinnekrych/modern-swan.git
