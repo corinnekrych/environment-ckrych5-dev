@@ -77,3 +77,9 @@ dependencies:
   url: https://github.com/corinnekrych/driving-raccoon.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: corinnekrych
+  repo: bdd-nh-1579453056
+  url: https://github.com/corinnekrych/bdd-nh-1579453056.git
+  version: ""
+  versionURL: ""
