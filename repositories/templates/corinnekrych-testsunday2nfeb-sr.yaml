@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: corinnekrych
+    provider: github
+    repository: testsunday2nfeb
+  name: corinnekrych-testsunday2nfeb
+spec:
+  description: Imported application for corinnekrych/testsunday2nfeb
+  httpCloneURL: https://github.com/corinnekrych/testsunday2nfeb.git
+  org: corinnekrych
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testsunday2nfeb
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/corinnekrych/testsunday2nfeb.git
