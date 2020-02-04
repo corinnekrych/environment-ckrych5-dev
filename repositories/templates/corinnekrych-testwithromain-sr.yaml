@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: corinnekrych
+    provider: github
+    repository: testwithromain
+  name: corinnekrych-testwithromain
+spec:
+  description: Imported application for corinnekrych/testwithromain
+  httpCloneURL: https://github.com/corinnekrych/testwithromain.git
+  org: corinnekrych
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: testwithromain
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/corinnekrych/testwithromain.git

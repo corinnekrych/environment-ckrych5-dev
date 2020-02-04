@@ -89,3 +89,9 @@ dependencies:
   url: https://github.com/corinnekrych/testsunday2nfeb.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: corinnekrych
+  repo: testwithromain
+  url: https://github.com/corinnekrych/testwithromain.git
+  version: ""
+  versionURL: ""
