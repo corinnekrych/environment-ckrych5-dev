@@ -95,3 +95,9 @@ dependencies:
   url: https://github.com/corinnekrych/testwithromain.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: corinnekrych
+  repo: toto22
+  url: https://github.com/corinnekrych/toto22.git
+  version: ""
+  versionURL: ""
